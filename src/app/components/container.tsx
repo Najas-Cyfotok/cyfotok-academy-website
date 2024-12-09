@@ -1,12 +1,14 @@
 type ContainerProps = {
-    children: React.ReactNode
-}
+  children: React.ReactNode;
+};
 
-
-const Container = ({children}: ContainerProps) => {
+const Container = ({ children }: ContainerProps) => {
   return (
-    <div className="flex flex-col mx-auto max-w-screen-2xl min-h-screen">{children}</div>
-  )
-}
+    //max width - 1536px
+    <div className="flex flex-col mx-auto max-w-screen-2xl min-h-screen">
+      {children}
+    </div>
+  );
+};
 
-export default Container
+export default Container;
