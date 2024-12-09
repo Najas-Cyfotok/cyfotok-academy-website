@@ -1,6 +1,5 @@
 import logo from "./logo.svg";
 //tech
-
 import heroImg from "./heroImg.png";
 //brands
 import brand1 from "./brand-1.png";
@@ -10,12 +9,10 @@ import brand4 from "./brand-4.png";
 import brand5 from "./brand-5.png";
 import brand6 from "./brand-6.png";
 import brand7 from "./brand-7.png";
-
 // info
 import info1 from "./info1.png";
 import info2 from "./info2.png";
 import info3 from "./info3.png";
-
 // facilities
 import rocket from "./rocket.svg";
 import laptop from "./laptop.svg";
@@ -23,10 +20,16 @@ import certificate from "./file-badge.svg";
 import puzzle from "./puzzle.svg";
 import star from "./star.svg";
 import medal from "./medal.svg";
-
+//banner
 import hackathon from "./hackathon.png";
 import teamWork from "./teamwork.png";
-
+//external links
+import certificatePrep from './clipboard-check.svg'
+import careerGuidance from './map.svg'
+import skill from './bug.svg'
+import moniter from './airplay.svg'
+import virus from './worm.svg'
+import star2 from './star2.svg'
 export const brands = [brand1, brand2, brand3, brand4, brand5, brand6, brand7];
 
 export const assets = {
@@ -108,6 +111,57 @@ export const facilitiesData = [
       "Get the skills and knowledge you need to launch your career in cybersecurity with our courses and labs led by industry experts.",
     imgUrl: medal,
   },
+];
+
+export const externalLinks = [
+  {
+    title:'Certificate Prep',
+    link:'/certifications',
+    img:certificatePrep
+  },
+  {
+    title:'Career Guidance',
+    link:'/careerguidance',
+    img:careerGuidance
+  },
+  {
+    title:'Skill Development',
+    link:'/skilldevelopment',
+    img:skill
+  },
+  {
+    title:'Online Classes',
+    link:'/onlineclasses',
+    img:moniter
+  },
+  {
+    title:'Virus Detection',
+    link:'/virusdetection',
+    img:virus
+  },
+  {
+    title:'Placement Help',
+    link:'/placementassistance',
+    img:star2
+  }
+]
+
+export const testimonials = [
+  {
+    quote:
+      "The attention to detail and innovative features have completely transformed our workflow. This is exactly what we've been looking for.",
+    name: "Farzi",
+    designation: "Business Analyst",
+    src: "https://utfs.io/f/NBpxSs18C7Kd5USzC7TSgvehmJYnEf1Tk4UcX3zLqCuOlyD0",
+  },
+  {
+    quote:
+      "Implementation was seamless and the results exceeded our expectations. The platform's flexibility is remarkable.",
+    name: "Adharsh",
+    designation: "Intern Cybersecurity Analyst",
+    src: "https://utfs.io/f/NBpxSs18C7Kds34seFj0jeKq3dYIlTZyik9SuWzgRfrtALcb",
+  },
+  
 ];
 
 export { info1, hackathon, teamWork };

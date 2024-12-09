@@ -10,7 +10,7 @@ type FacilitiesCardProps = {
 const FacilitiesCard = ({imgUrl, title, description}: FacilitiesCardProps) => {
   return (
     <ShineBorder color={["#A07CFE", "#FE8FB5", "#FFBE7B"]} className="bg-white/60">
-      <div className=" px-5 py-3 flex flex-col gap-y-3 h-[250px] hover:scale-100 scale-95 duration transition">
+      <div className=" px-5 py-3 flex flex-col gap-y-3 h-[250px] hover:scale-100 scale-95 duration transition max-md:py-0">
         <Image
           alt={title}
           src={imgUrl}
