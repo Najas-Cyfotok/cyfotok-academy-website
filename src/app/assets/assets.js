@@ -1,5 +1,6 @@
+//logo
 import logo from "./logo.svg";
-//tech
+//hero img
 import heroImg from "./heroImg.png";
 //brands
 import brand1 from "./brand-1.png";
@@ -24,34 +25,26 @@ import medal from "./medal.svg";
 import hackathon from "./hackathon.png";
 import teamWork from "./teamwork.png";
 //external links
-import certificatePrep from './clipboard-check.svg'
-import careerGuidance from './map.svg'
-import skill from './bug.svg'
-import moniter from './airplay.svg'
-import virus from './worm.svg'
-import star2 from './star2.svg'
+import certificatePrep from "./clipboard-check.svg";
+import careerGuidance from "./map.svg";
+import skill from "./bug.svg";
+import moniter from "./airplay.svg";
+import virus from "./worm.svg";
+import star2 from "./star2.svg";
+
+// background for contact
+import contactBG from "./bg.jpg";
+// social icons
+import linkedin from "./linkedin.svg";
+import instagram from "./instagram.svg";
+import twitter from "./twitter.svg";
+import youtube from "./youtube.svg";
 export const brands = [brand1, brand2, brand3, brand4, brand5, brand6, brand7];
 
 export const assets = {
   logo,
   heroImg,
 };
-
-// export const slugs = [
-//   html,
-//   css,
-//   js,
-//   react,
-//   tailwind,
-//   nextjs,
-//   figma,
-//   kali,
-//   linux,
-//   mongoDB,
-//   nodejs,
-//   ts,
-//   virus,
-// ];
 
 export const infoData = [
   {
@@ -115,36 +108,36 @@ export const facilitiesData = [
 
 export const externalLinks = [
   {
-    title:'Certificate Prep',
-    link:'/certifications',
-    img:certificatePrep
+    title: "Certificate Prep",
+    link: "/certifications",
+    img: certificatePrep,
   },
   {
-    title:'Career Guidance',
-    link:'/careerguidance',
-    img:careerGuidance
+    title: "Career Guidance",
+    link: "/careerguidance",
+    img: careerGuidance,
   },
   {
-    title:'Skill Development',
-    link:'/skilldevelopment',
-    img:skill
+    title: "Skill Development",
+    link: "/skilldevelopment",
+    img: skill,
   },
   {
-    title:'Online Classes',
-    link:'/onlineclasses',
-    img:moniter
+    title: "Online Classes",
+    link: "/onlineclasses",
+    img: moniter,
   },
   {
-    title:'Virus Detection',
-    link:'/virusdetection',
-    img:virus
+    title: "Virus Detection",
+    link: "/virusdetection",
+    img: virus,
   },
   {
-    title:'Placement Help',
-    link:'/placementassistance',
-    img:star2
-  }
-]
+    title: "Placement Help",
+    link: "/placementassistance",
+    img: star2,
+  },
+];
 
 export const testimonials = [
   {
@@ -161,7 +154,109 @@ export const testimonials = [
     designation: "Intern Cybersecurity Analyst",
     src: "https://utfs.io/f/NBpxSs18C7Kds34seFj0jeKq3dYIlTZyik9SuWzgRfrtALcb",
   },
-  
 ];
 
-export { info1, hackathon, teamWork };
+export const socialLink = [
+  {
+    name: "Linkedin",
+    url: "https://www.linkedin.com/company/cyfotok",
+    icon: linkedin,
+  },
+  {
+    name: "Instagram",
+    url: "https://www.instagram.com/cyfotok/",
+    icon: instagram,
+  },
+  {
+    name: "X",
+    url: "https://www.linkedin.com/company/cyfotok",
+    icon: twitter,
+  },
+  {
+    name: "Youtube",
+    url: "https://www.youtube.com/@CYFOTOK",
+    icon: youtube,
+  },
+];
+
+export const FooterCourses = [
+  {
+    title: "Cybersecurity",
+    link: "/cybersecurity",
+  },
+  {
+    title: "Web Development",
+    link: "/webdevelopment",
+  },
+  {
+    title: "Data Science",
+    link: "/datascience",
+  },
+  {
+    title: "Digital Marketing",
+    link: "/digitalmarketing",
+  },
+  {
+    title: "Full Stack Development",
+    link: "/fullstackdevelopment",
+  },
+];
+
+export const FooterCompany = [
+  {
+    title: "Cyfotok Academy",
+    link: "/aboutus",
+  },
+  {
+    title: "Cyfotok Infosec",
+    link: "/contactus",
+  },
+  {
+    title: "Cyfotok Blog",
+    link: "/privacypolicy",
+  },
+  {
+    title: "Cyfotok Community",
+    link: "/termsandconditions",
+  },
+];
+
+export const FooterResources = [
+  {
+    title: "Blog",
+    link: "/aboutus",
+  },
+  {
+    title: "Events",
+    link: "/contactus",
+  },
+  {
+    title: "Hackathons",
+    link: "/privacypolicy",
+  },
+  {
+    title: "Privacy Policy",
+    link: "/termsandconditions",
+  },
+  {
+    title: "Terms and Conditions",
+    link: "/privacypolicy",
+  },
+];
+
+export const FooterSupport = [
+  {
+    title: "Contact Us",
+    link: "/aboutus",
+  },
+  {
+    title: "FAQ",
+    link: "/contactus",
+  },
+  {
+    title: "Support",
+    link: "/privacypolicy",
+  },
+];
+
+export { info1, hackathon, teamWork, contactBG };

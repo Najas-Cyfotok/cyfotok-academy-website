@@ -83,8 +83,6 @@ export const AnimatedTestimonials = ({
                     src={testimonial.src}
                     width={500}
                     height={500}
-                    autoPlay
-                    loop
                     muted
                     onPause={handleNext}
                     controls
