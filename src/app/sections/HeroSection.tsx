@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <div className="flex justify-center items-center mt-28 gap-x-8 max-md:flex-col px-3 ">
+    <section className="flex justify-center items-center mt-28 gap-x-8 max-md:flex-col px-3 ">
       <div className="flex flex-col gap-5 max-w-2xl max-md:w-full">
         <p className="max-sm:text-sm max-md:text-center max-md:text-lg max-lg:text-base text-2xl">
           INTRODUCING THE NEW ERA OF TECHNOLOGY
@@ -37,7 +37,7 @@ const HeroSection = () => {
           className="w-full h-full"
         />
       </div>
-    </div>
+    </section>
   );
 };
 

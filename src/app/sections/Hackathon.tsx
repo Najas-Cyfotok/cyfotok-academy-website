@@ -5,7 +5,7 @@ import { hackathon } from "../assets/assets";
 
 const Hackathon = () => {
   return (
-    <div className="my-20 bg-gradient-to-t from-pink-500 to-rose-500  rounded-lg relative flex justify-between items-center max-md:flex-col">
+    <section className="my-20 bg-gradient-to-t from-pink-500 to-rose-500  rounded-lg relative flex justify-between items-center max-md:flex-col">
       <div className="flex flex-col gap-y-3 p-5">
         <p className="text-sm px-3 py-1 font-bold uppercase bg-white rounded-full w-fit">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-rose-500">
@@ -25,7 +25,7 @@ const Hackathon = () => {
       <div className="-mt-5 max-md:-mb-10">
         <Image src={hackathon} alt="hackathon" width={1080} height={1080} className="max-w-xl rounded-lg max-sm:w-[300px]"/>
       </div>
-    </div>
+    </section>
   );
 };
 
