@@ -4,7 +4,7 @@ import Logo from "../components/logo";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="p-5">
       <div className="flex justify-between items-center">
         <Logo />
         <p className="text-black/80">© 2023 Cyfotok Academy</p>

@@ -3,7 +3,7 @@ import FacilitiesCard from "../components/facilitiesCard";
 
 const TrainingFacilities = () => {
   return (
-    <section>
+    <section className="p-5">
       <p className="my-10 text-4xl tracking-wide font-medium text-black/80 max-md:px-3">
         Why{" "}
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-rose-500 ">
