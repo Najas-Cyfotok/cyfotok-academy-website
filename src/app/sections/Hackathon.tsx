@@ -5,7 +5,7 @@ import { hackathon } from "../assets/assets";
 
 const Hackathon = () => {
   return (
-    <section className="my-20 bg-gradient-to-t from-pink-500 to-rose-500  rounded-lg relative flex justify-between items-center max-md:flex-col">
+    <section className="my-20 bg-gradient-to-t from-pink-500 to-rose-500  rounded-lg relative flex justify-between items-center max-md:flex-col m-5">
       <div className="flex flex-col gap-y-3 p-5">
         <p className="text-sm px-3 py-1 font-bold uppercase bg-white rounded-full w-fit">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-rose-500">
