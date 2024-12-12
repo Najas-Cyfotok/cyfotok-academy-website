@@ -39,6 +39,9 @@ import linkedin from "./linkedin.svg";
 import instagram from "./instagram.svg";
 import twitter from "./twitter.svg";
 import youtube from "./youtube.svg";
+import whatsapp from './whatsapp.svg'
+//character
+import girl from './girl.png'
 export const brands = [brand1, brand2, brand3, brand4, brand5, brand6, brand7];
 
 export const assets = {
@@ -259,4 +262,4 @@ export const FooterSupport = [
   },
 ];
 
-export { info1, hackathon, teamWork, contactBG };
+export { info1, hackathon, teamWork, contactBG ,girl,whatsapp};
