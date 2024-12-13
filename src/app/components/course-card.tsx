@@ -1,5 +1,4 @@
 import ShineBorder from "@/components/ui/shine-border";
-import { CoursesData } from "@/lib/types";
 import { CalendarDays, School } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
