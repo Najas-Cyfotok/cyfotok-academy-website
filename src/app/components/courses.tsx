@@ -2,11 +2,11 @@
 
 import { useState } from "react";
 import { catagories } from "../assets/courses";
-import { CoursesData } from "@/lib/types";
 import CourseCard from "./course-card";
+import { CourseData } from "@/lib/types";
 
 type CoursesProps = {
-  course?: CoursesData;
+  course: CourseData[];
 };
 
 const Courses = ({ course }: CoursesProps) => {
