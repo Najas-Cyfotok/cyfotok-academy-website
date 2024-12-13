@@ -23,7 +23,7 @@ const page = ({ params }: Props) => {
     <main className="max-w-screen-2xl mt-28 mx-6">
       <PagePath param={capatilize(course)} />
       <CourseHero/>
-      <CourseList course={course}/>
+      <CourseList/>
     </main>
   );
 };
