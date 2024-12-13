@@ -2,12 +2,10 @@ import { coursesData } from "@/app/assets/courses";
 import PagePath from "@/app/components/page-path";
 import CourseDetails from "@/app/sections/CourseDetails";
 import { Metadata } from "next";
+import { Suspense } from "react";
+import Loading from "./loading";
+import { sleep } from "@/app/lib/utils";
 
-type Props = {
-  params: {
-    course: string;
-  };
-};
 type CourseDetailPageProp = {
   params: {
     slug: string;
@@ -23,11 +21,12 @@ export async function generateMetadata({
     title: title[0].title,
   };
 }
-const CourseDetailPage = ({ params }: CourseDetailPageProp) => {
+const CourseDetailPage = async({ params }: CourseDetailPageProp) => {
   // console.log(params);
   const filteredCourse = coursesData.filter(
     (course) => course.id === params.slug
   );
+  await sleep(2500)
 
   return (
     <main className="mt-28 px-3">
@@ -35,7 +34,9 @@ const CourseDetailPage = ({ params }: CourseDetailPageProp) => {
         category={filteredCourse[0].category}
         param={filteredCourse[0].title}
       />
-      <CourseDetails params={params} />
+      <Suspense fallback={<Loading />}>
+        <CourseDetails params={params} />
+      </Suspense>
     </main>
   );
 };

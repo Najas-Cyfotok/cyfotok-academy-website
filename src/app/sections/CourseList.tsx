@@ -1,7 +1,10 @@
 import { coursesData } from "../assets/courses";
 import Courses from "../components/courses";
 
+
 const CourseList = () => {
+
+
   // console.log(course);
 
   return (
