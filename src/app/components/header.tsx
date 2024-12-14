@@ -18,12 +18,12 @@ const routes = [
     path: "/courses/all",
   },
   {
-    name: "Events",
-    path: "/events/all",
+    name: "Resources",
+    path: "/resources/all",
   },
   {
-    name: "Blog",
-    path: "/blog/all",
+    name: "Blogs",
+    path: "/blogs/all",
   },
   {
     name: "Contact",
@@ -35,7 +35,7 @@ const Header = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="flex justify-between items-center border-b border-black/25 px-3 h-20 fixed top-0 left-0 right-0 z-10 bg-transparent backdrop-blur-sm max-w-screen-2xl mx-auto">
+    <header className="flex justify-between items-center border-b border-black/25 px-3 h-20 fixed top-0 left-0 right-0 z-50 bg-transparent backdrop-blur-sm max-w-screen-2xl mx-auto">
       <div className="flex items-center ">
         <Logo />
         <nav className="h-full">

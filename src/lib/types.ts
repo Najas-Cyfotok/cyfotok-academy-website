@@ -13,7 +13,7 @@ export type CourseData = {
   paid: boolean;
   popular?: boolean;
   metaTitle?: string; // Optional
-  metaDesc?: string;  // Optional
+  metaDesc?: string; // Optional
   metaKeyword?: string; // Optional
   category: string;
   state: string;
@@ -53,3 +53,43 @@ export type CourseData = {
     comment: string;
   }[];
 };
+
+export type resources = {
+  id: number;
+  imgSrc: string;
+  title: string;
+  date: string;
+  pdf: string;
+  location: string;
+  desc: string;
+  category: string;
+  download: number;
+  searchKeyword: string;
+  // paid:boolean;
+  // price:number;
+  // preDiscount:number;
+}[];
+
+export type resourcesCategory = {
+  id: number;
+  title: string;
+}[];
+
+export type Blog = {
+  id: string;
+  imageSrc: string;
+  metatitle: string;
+  author: string;
+  authorLink: string;
+  metadesc: string;
+  category: string;
+  title: string;
+  date: string;
+  desc: string;
+  para: Array<{
+    heading?: string; // Optional as not all objects have "heading"
+    subheading?: string; // Optional as not all objects have "subheading"
+    text?: string; // Optional as not all objects have "text"
+    code?: string; // Optional as not all objects have "code"
+  }>;
+}[];

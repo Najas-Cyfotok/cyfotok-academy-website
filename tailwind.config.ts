@@ -131,7 +131,10 @@ const config: Config = {
   					height: '0'
   				}
   			}
-  		}
+  		},
+		backgroundImage:{
+			 'banner':'url(https://utfs.io/f/CVETMkBmijEYQHVvGhFvzjYqcmWNfKS2CGgVIMD3Q4TOHysk)',
+		}
   	}
   },
   plugins: [require("tailwindcss-animate")],

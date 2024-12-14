@@ -1,10 +1,10 @@
 import { coursesData } from "@/app/assets/courses";
 import PagePath from "@/app/components/page-path";
-import CourseDetails from "@/app/sections/CourseDetails";
 import { Metadata } from "next";
 import { Suspense } from "react";
 import Loading from "./loading";
 import { sleep } from "@/app/lib/utils";
+import CourseDetails from "@/app/sections/Course/CourseDetails";
 
 type CourseDetailPageProp = {
   params: {
@@ -26,7 +26,7 @@ const CourseDetailPage = async({ params }: CourseDetailPageProp) => {
   const filteredCourse = coursesData.filter(
     (course) => course.id === params.slug
   );
-  await sleep(2500)
+  await sleep(2000)
 
   return (
     <main className="mt-28 px-3">
@@ -35,7 +35,7 @@ const CourseDetailPage = async({ params }: CourseDetailPageProp) => {
         param={filteredCourse[0].title}
       />
       <Suspense fallback={<Loading />}>
-        <CourseDetails params={params} />
+        <CourseDetails courses={filteredCourse} />
       </Suspense>
     </main>
   );
