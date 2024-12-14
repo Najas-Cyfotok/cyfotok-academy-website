@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import { Blog } from "@/lib/types";
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
@@ -49,7 +49,7 @@ export const HoverEffect = ({
             )}
           </AnimatePresence>
           <Card className="flex flex-col justify-between">
-            <CardImage >{item.imageSrc}</CardImage>
+            <CardImage>{item.imageSrc}</CardImage>
             <CardDate>{item.date}</CardDate>
             <CardTitle>{item.title}</CardTitle>
             <CardDescription>{item.desc}</CardDescription>
@@ -114,25 +114,39 @@ export const CardDescription = ({
 };
 
 export const CardImage = ({
-  className,
   children,
-}:{
+}: {
   className?: string;
   children: string;
 }) => {
   return (
-    <Image src={children} alt={""} className="rounded-lg" width={720} height={720}/>
-  )
-}
+    <div>
+      <Image
+        src={children}
+        alt={""}
+        className="rounded-lg w-full h-full object-cover"
+        width={500}
+        height={500}
+      />
+    </div>
+  );
+};
 
-export const CardDate = ({className, children}:{
+export const CardDate = ({
+  className,
+  children,
+}: {
   className?: string;
-  children: string;
+  children: React.ReactNode;
 }) => {
-  return(
-    <p className=" text-sm flex flex-col items-start max-w-[150px] mt-2  bg-white/90 rounded-lg p-2">{children}</p>
-  )
-}
+  return (
+    <div>
+      <p className=" text-sm flex flex-col items-start max-w-[150px] mt-2  bg-white/90 rounded-lg p-2">
+        {children}
+      </p>
+    </div>
+  );
+};
 
 export const CardButton = ({
   className,
@@ -145,8 +159,9 @@ export const CardButton = ({
 }) => {
   return (
     <Link href={href} className={className}>
-      <Button className="mt-4 hover:bg-white duration transition hover:text-black">{children}</Button>
+      <Button className="mt-4 hover:bg-white duration transition hover:text-black">
+        {children}
+      </Button>
     </Link>
   );
 };
-

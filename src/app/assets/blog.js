@@ -1,6 +1,6 @@
-import blogImg1 from './blogs/obs-payload.svg'
-import blogImg2 from './blogs/docker-blog.svg'
-import blogImg3 from './blogs/telegram-phishing.svg'
+// import blogImg1 from './blogs/obs-payload.svg'
+// import blogImg2 from './blogs/docker-blog.svg'
+// import blogImg3 from './blogs/telegram-phishing.svg'
 export const categories = [
   "All Categories",
   "Cyber Security",
@@ -47,7 +47,7 @@ export const tags = [
 export const blogs = [
   {
     id: "obfuscating-powershell-scripts",
-    imageSrc: blogImg1.src,
+    imageSrc: 'https://utfs.io/f/CVETMkBmijEYJ6t6ijb8t3i51LRDQynvW4lb62wdfYqekFhx',
     metatitle:
       "How to Obfuscate a PowerShell Script to Evade Antivirus and Gain a Reverse Shell",
     author: "Nithish Kumar",
@@ -125,7 +125,7 @@ export const blogs = [
   },
   {
     id: "intoduction-to-docker",
-    imageSrc: blogImg2.src,
+    imageSrc: 'https://utfs.io/f/CVETMkBmijEYwO5u9GfVMU39ILuTcyhHdNRPfpKiB0QJZYqk',
     metatitle: "Getting Started with Docker: A Beginner's Guide",
     author: "Brijith K Biju",
     authorLink: "https://www.linkedin.com/in/brijith-k-biju/",
@@ -193,7 +193,7 @@ export const blogs = [
   },
   {
     id: "old-photos-telegram-phishing-link",
-    imageSrc: blogImg3.src,
+    imageSrc: 'https://utfs.io/f/CVETMkBmijEYBfkUnlO29C0HQkKuITjVgfSD8lWdXvhREFAm',
     metatitle:
       "‘Photos of You as a Child’: The Phishing Scam Targeting Telegram Users",
     author: "Nithish Kumar",
