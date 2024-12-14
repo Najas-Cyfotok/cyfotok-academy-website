@@ -3,43 +3,43 @@ import logo from "./logo.svg";
 //hero img
 import heroImg from "./heroImg.png";
 //brands
-import brand1 from "./brand-1.png";
-import brand2 from "./brand-2.png";
-import brand3 from "./brand-3.png";
-import brand4 from "./brand-4.png";
-import brand5 from "./brand-5.png";
-import brand6 from "./brand-6.png";
-import brand7 from "./brand-7.png";
+import brand1 from "./brands/brand-1.png";
+import brand2 from "./brands/brand-2.png";
+import brand3 from "./brands/brand-3.png";
+import brand4 from "./brands/brand-4.png";
+import brand5 from "./brands/brand-5.png";
+import brand6 from "./brands/brand-6.png";
+import brand7 from "./brands/brand-7.png";
 // info
-import info1 from "./info1.png";
-import info2 from "./info2.png";
-import info3 from "./info3.png";
+import info1 from "./information/info1.png";
+import info2 from "./information/info2.png";
+import info3 from "./information/info3.png";
 // facilities
-import rocket from "./rocket.svg";
-import laptop from "./laptop.svg";
-import certificate from "./file-badge.svg";
-import puzzle from "./puzzle.svg";
-import star from "./star.svg";
-import medal from "./medal.svg";
+import rocket from "./facilities/rocket.svg";
+import laptop from "./facilities/laptop.svg";
+import certificate from "./facilities/file-badge.svg";
+import puzzle from "./facilities/puzzle.svg";
+import star from "./facilities/star.svg";
+import medal from "./facilities/medal.svg";
 //banner
-import hackathon from "./hackathon.png";
-import teamWork from "./teamwork.png";
+import hackathon from "./banner/hackathon.png";
+import teamWork from "./banner/teamwork.png";
 //external links
-import certificatePrep from "./clipboard-check.svg";
-import careerGuidance from "./map.svg";
-import skill from "./bug.svg";
-import moniter from "./airplay.svg";
-import virus from "./worm.svg";
-import star2 from "./star2.svg";
+import certificatePrep from "./external-links/clipboard-check.svg";
+import careerGuidance from "./external-links/map.svg";
+import skill from "./external-links/bug.svg";
+import moniter from "./external-links/airplay.svg";
+import virus from "./external-links/worm.svg";
+import star2 from "./external-links/star2.svg";
 
 // background for contact
 import contactBG from "./bg.jpg";
 // social icons
-import linkedin from "./linkedin.svg";
-import instagram from "./instagram.svg";
-import twitter from "./twitter.svg";
-import youtube from "./youtube.svg";
-import whatsapp from './whatsapp.svg'
+import linkedin from "./social-icons/linkedin.svg";
+import instagram from "./social-icons/instagram.svg";
+import twitter from "./social-icons/twitter.svg";
+import youtube from "./social-icons/youtube.svg";
+import whatsapp from './social-icons/whatsapp.svg'
 //character
 import girl from './girl.png'
 export const brands = [brand1, brand2, brand3, brand4, brand5, brand6, brand7];

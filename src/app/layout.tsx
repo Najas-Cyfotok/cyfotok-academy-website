@@ -3,7 +3,7 @@ import { Figtree, Poppins } from "next/font/google";
 import "./globals.css";
 import Container from "./components/container";
 import Header from "./components/header";
-import Footer from "./sections/Footer";
+import Footer from "./components/Footer";
 
 const figtree = Figtree({ subsets: ["latin"] });
 // const poppins = Poppins({ weight: ["400", "500", "600", "700"], subsets: ["latin"] }); // Aadhi Told to me change a new font for poppins

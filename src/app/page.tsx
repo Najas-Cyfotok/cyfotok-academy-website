@@ -1,13 +1,12 @@
-import CompanyAbout from "./sections/CompanyAbout";
-import Contact from "./sections/Contact";
-import ExternalLinks from "./sections/ExternalLinks";
-import Footer from "./sections/Footer";
-import Hackathon from "./sections/Hackathon";
-import HeroSection from "./sections/HeroSection";
-import Learn from "./sections/Learn";
-import Partners from "./sections/Partners";
-import Testimonials from "./sections/Testimonials";
-import TrainingFacilities from "./sections/TrainingFacilities";
+import CompanyAbout from "./sections/Home/CompanyAbout";
+import Contact from "./sections/Home/Contact";
+import ExternalLinks from "./sections/Home/ExternalLinks";
+import Hackathon from "./sections/Home/Hackathon";
+import HeroSection from "./sections/Home/HeroSection";
+import Learn from "./sections/Home/Learn";
+import Partners from "./sections/Home/Partners";
+import Testimonials from "./sections/Home/Testimonials";
+import TrainingFacilities from "./sections/Home/TrainingFacilities";
 
 export default function Home() {
   return (
