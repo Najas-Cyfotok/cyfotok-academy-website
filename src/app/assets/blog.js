@@ -195,7 +195,7 @@ export const blogs = [
     id: "old-photos-telegram-phishing-link",
     imageSrc: 'https://utfs.io/f/CVETMkBmijEYBfkUnlO29C0HQkKuITjVgfSD8lWdXvhREFAm',
     metatitle:
-      "‘Photos of You as a Child’: The Phishing Scam Targeting Telegram Users",
+      `"Photos of You as a Child": The Phishing Scam Targeting Telegram Users`,
     author: "Nithish Kumar",
     authorLink: "https://in.linkedin.com/in/nithish-kumar-b64aa2224",
     metadesc:
