@@ -2,7 +2,6 @@ import { blogs } from "@/app/assets/blog";
 import PagePath from "@/app/components/page-path";
 import BlogsHero from "@/app/sections/Blogs/BlogsHero";
 import BlogsList from "@/app/sections/Blogs/BlogsList";
-import { Blog } from "@/lib/types";
 import { Metadata } from "next";
 import { Suspense } from "react";
 import Loading from "./loading";

@@ -93,3 +93,22 @@ export type Blog = {
     code?: string; // Optional as not all objects have "code"
   }>;
 }[];
+
+export type BlogData = {
+  id: string;
+  imageSrc: string;
+  metatitle: string;
+  author: string;
+  authorLink: string;
+  metadesc: string;
+  category: string;
+  title: string;
+  date: string;
+  desc: string;
+  para: {
+    heading?: string;
+    subheading?: string;
+    text?: string;
+    code?: string;
+  }[];
+};
