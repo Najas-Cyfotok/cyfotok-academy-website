@@ -16,6 +16,7 @@ export type CourseData = {
   metaDesc?: string; // Optional
   metaKeyword?: string; // Optional
   category: string;
+  subpages?: string;
   state: string;
   language?: string;
   viewStatus: string;

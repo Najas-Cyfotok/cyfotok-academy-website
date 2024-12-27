@@ -9,7 +9,7 @@ type LinkButtonProps = {
 };
 const LinkButton = ({ title, img, link }: LinkButtonProps) => {
   return (
-    <Link href={link}>
+    <Link href={`/skills/${link}`}>
       <div className="flex justify-between items-center bg-black/90 rounded-lg px-5 py-3 scale-100 hover:scale-105 duration transition hover:bg-gradient-to-t from-pink-500 to-rose-500 hover:font-semibold">
         <div className="flex gap-3 items-center">
           <Image

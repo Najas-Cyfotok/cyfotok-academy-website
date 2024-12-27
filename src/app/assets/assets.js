@@ -39,11 +39,13 @@ import linkedin from "./social-icons/linkedin.svg";
 import instagram from "./social-icons/instagram.svg";
 import twitter from "./social-icons/twitter.svg";
 import youtube from "./social-icons/youtube.svg";
-import whatsapp from './social-icons/whatsapp.svg'
+import whatsapp from "./social-icons/whatsapp.svg";
 //character
-import girl from './girl.png'
+import girl from "./girl.png";
 export const brands = [brand1, brand2, brand3, brand4, brand5, brand6, brand7];
 
+// skill BG
+import SkillBG from "./skill/team-work.jpg";
 export const assets = {
   logo,
   heroImg,
@@ -111,33 +113,33 @@ export const facilitiesData = [
 
 export const externalLinks = [
   {
-    title: "Certificate Prep",
-    link: "/certifications",
-    img: certificatePrep,
-  },
-  {
-    title: "Career Guidance",
-    link: "/careerguidance",
-    img: careerGuidance,
-  },
-  {
-    title: "Skill Development",
-    link: "/skilldevelopment",
+    title: "CyberSecurity",
+    link: "/cybersecurity",
     img: skill,
   },
   {
-    title: "Online Classes",
-    link: "/onlineclasses",
+    title: "Web Development",
+    link: "/web-development",
     img: moniter,
   },
   {
-    title: "Virus Detection",
-    link: "/virusdetection",
+    title: "Digital Marketing",
+    link: "/digital-marketing",
+    img: certificatePrep,
+  },
+  {
+    title: "App Development",
+    link: "/app-development",
+    img: careerGuidance,
+  },
+  {
+    title: "Artificial Intelligence",
+    link: "/artificial-intelligence",
     img: virus,
   },
   {
-    title: "Placement Help",
-    link: "/placementassistance",
+    title: "UI/UX Design",
+    link: "/ui-ux-design",
     img: star2,
   },
 ];
@@ -262,4 +264,4 @@ export const FooterSupport = [
   },
 ];
 
-export { info1, hackathon, teamWork, contactBG ,girl,whatsapp};
+export { info1, hackathon, teamWork, contactBG, girl, whatsapp, SkillBG };
