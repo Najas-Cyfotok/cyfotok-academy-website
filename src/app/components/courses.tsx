@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { catagories } from "../assets/courses";
+import { catagories } from "../../../public/assets/courses";
 import CourseCard from "./course-card";
 import { CourseData } from "@/lib/types";
 

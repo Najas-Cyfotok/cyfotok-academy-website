@@ -1,5 +1,5 @@
-import { coursesData } from "@/app/assets/courses";
 import Courses from "@/app/components/courses";
+import { coursesData } from "../../../../public/assets/courses";
 
 
 const CourseList = () => {

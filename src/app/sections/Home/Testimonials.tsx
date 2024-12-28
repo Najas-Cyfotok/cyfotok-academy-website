@@ -1,6 +1,6 @@
 
 import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
-import { testimonials } from "../../assets/assets";
+import { testimonials } from "../../../../public/assets/assets";
 
 
 const Testimonials = () => {

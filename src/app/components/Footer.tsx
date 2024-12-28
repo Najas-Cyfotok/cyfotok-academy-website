@@ -1,4 +1,4 @@
-import { FooterCompany, FooterCourses, FooterResources, FooterSupport } from "../assets/assets";
+import { FooterCompany, FooterCourses, FooterResources, FooterSupport } from "../../../public/assets/assets";
 import ListItems from "./list-Items";
 import Logo from "./logo";
 

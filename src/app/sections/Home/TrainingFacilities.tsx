@@ -1,4 +1,4 @@
-import { facilitiesData } from "../../assets/assets";
+import { facilitiesData } from "../../../../public/assets/assets";
 import FacilitiesCard from "../../components/facilitiesCard";
 
 const TrainingFacilities = () => {

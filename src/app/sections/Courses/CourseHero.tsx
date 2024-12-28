@@ -1,5 +1,5 @@
-import { girl } from "@/app/assets/assets";
 import Image from "next/image";
+import { girl } from "../../../../public/assets/assets";
 
 
 const CourseHero = () => {

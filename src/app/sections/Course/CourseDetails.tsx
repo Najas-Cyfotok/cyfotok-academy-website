@@ -5,9 +5,9 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 import { CourseData } from "@/lib/types";
-import { whatsapp, facilitiesData } from "@/app/assets/assets";
 import FacilitiesCard from "@/app/components/facilitiesCard";
 import CourseDescription from "../CourseDescription";
+import { whatsapp, facilitiesData } from "../../../../public/assets/assets";
 
 type CoursesProps = {
   courses: CourseData[];

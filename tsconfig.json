@@ -27,6 +27,6 @@
     "**/*.tsx",
     "src/**/*",
     ".next/types/**/*.ts"
-  ],
+, "public/assets"  ],
   "exclude": ["node_modules"]
 }

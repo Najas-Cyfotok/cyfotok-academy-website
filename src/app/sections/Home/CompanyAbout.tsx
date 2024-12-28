@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { teamWork } from "../../assets/assets";
+import { teamWork } from "../../../../public/assets/assets";
 
 const CompanyAbout = () => {
   return (

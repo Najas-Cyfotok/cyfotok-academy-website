@@ -11,10 +11,7 @@ const nextConfig = {
         hostname: "utfs.io",
       },
     ],
-    dangerouslyAllowSVG: true,
   },
-  compression: true,
-  browserCache: true,
 };
 
 export default nextConfig;
