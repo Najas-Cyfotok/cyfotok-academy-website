@@ -191,26 +191,26 @@ export const FooterCourses = [
   },
   {
     title: "Web Development",
-    link: "/webdevelopment",
+    link: "/web-development",
   },
   {
-    title: "Data Science",
-    link: "/datascience",
+    title: "Artificial Intelligence",
+    link: "/artificial-intelligence",
   },
   {
     title: "Digital Marketing",
-    link: "/digitalmarketing",
+    link: "/digital-marketing",
   },
   {
-    title: "Full Stack Development",
-    link: "/fullstackdevelopment",
+    title: "UI/UX Design",
+    link: "/ui-ux-design",
   },
 ];
 
 export const FooterCompany = [
   {
     title: "Cyfotok Academy",
-    link: "/aboutus",
+    link: "/",
   },
   {
     title: "Cyfotok Infosec",
@@ -218,18 +218,18 @@ export const FooterCompany = [
   },
   {
     title: "Cyfotok Blog",
-    link: "/privacypolicy",
+    link: "/#",
   },
   {
     title: "Cyfotok Community",
-    link: "/termsandconditions",
+    link: "/#",
   },
 ];
 
 export const FooterResources = [
   {
     title: "Blog",
-    link: "/aboutus",
+    link: "/blog/all",
   },
   {
     title: "Events",
