@@ -3,7 +3,6 @@ import PagePath from "@/app/components/page-path";
 import { Metadata } from "next";
 import { Suspense } from "react";
 import Loading from "./loading";
-import { sleep } from "@/app/lib/utils";
 import CourseDetails from "@/app/sections/Course/CourseDetails";
 
 type CourseDetailPageProp = {
@@ -26,7 +25,6 @@ const CourseDetailPage = async ({ params }: CourseDetailPageProp) => {
   const filteredCourse = coursesData.filter(
     (course) => course.id === params.slug
   );
-  await sleep(1000);
 
   return (
     <main className="mt-28 px-3">
