@@ -3,7 +3,6 @@ import { Skill } from "@/lib/types";
 import Image from "next/image";
 import Link from "next/link";
 
-
 type SkillProps = {
   data: Skill;
 };
@@ -26,13 +25,13 @@ const SkillHeroSection = ({ data }: SkillProps) => {
             </RainbowButton>
           </Link>
         </div>
-        <div className="w-1/2 border max-lg:w-full">
+        <div className="w-1/2  max-lg:w-full">
           <Image
             alt="skill"
             src={data[0].img}
             width={500}
             height={500}
-            className="w-full  border rounded-lg object-contain"
+            className="w-full rounded-lg object-contain"
           />
         </div>
       </div>
@@ -44,7 +43,7 @@ const SkillHeroSection = ({ data }: SkillProps) => {
             src={data[0].secImg}
             width={500}
             height={500}
-            className="w-full  border rounded-lg object-contain"
+            className="w-full rounded-lg object-contain"
           />
         </div>
         <div className="flex flex-col gap-y-4 w-1/2 items-start max-lg:w-full max-lg:items-center">
