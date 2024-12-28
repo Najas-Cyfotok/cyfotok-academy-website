@@ -1,5 +1,4 @@
-import { coursesData } from "@/app/assets/courses";
-import { skills } from "@/app/assets/skill/skills";
+
 import Testimonials from "@/app/sections/Home/Testimonials";
 import TrainingFacilities from "@/app/sections/Home/TrainingFacilities";
 import SkillCourse from "@/app/sections/Skills/SkillCourse";
@@ -9,6 +8,8 @@ import { Metadata } from "next";
 import  { Suspense } from "react";
 import Loading from "./loading";
 import { sleep } from "@/app/lib/utils";
+import { coursesData } from "../../../../public/assets/courses";
+import { skills } from "../../../../public/assets/skill/skills";
 
 type Props = {
   params: {

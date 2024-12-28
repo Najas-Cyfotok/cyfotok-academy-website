@@ -1,7 +1,7 @@
 import { MoveRight } from "lucide-react";
 import Image from "next/image";
 
-import { hackathon } from "../../assets/assets";
+import { hackathon } from "../../../../public/assets/assets";
 
 const Hackathon = () => {
   return (

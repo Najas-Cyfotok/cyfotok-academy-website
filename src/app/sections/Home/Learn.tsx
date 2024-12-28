@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
-import { info1, infoData } from "../../assets/assets";
+import { info1, infoData } from "../../../../public/assets/assets";
 import LearnMenu from "../../components/learnMenu";
 import { motion } from "framer-motion";
 const Learn = () => {

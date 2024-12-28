@@ -1,5 +1,5 @@
 import { RainbowButton } from "@/components/ui/rainbow-button";
-import { assets } from "../../assets/assets";
+import { assets } from "../../../../public/assets/assets";
 import Image from "next/image";
 import Link from "next/link";
 

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { contactBG, socialLink } from "../../assets/assets";
+import { contactBG, socialLink } from "../../../../public/assets/assets";
 import { RainbowButton } from "@/components/ui/rainbow-button";
 import SocialIcons from "../../components/social-Icons";
 

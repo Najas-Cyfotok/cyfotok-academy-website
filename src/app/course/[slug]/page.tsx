@@ -1,9 +1,9 @@
-import { coursesData } from "@/app/assets/courses";
 import PagePath from "@/app/components/page-path";
 import { Metadata } from "next";
 import { Suspense } from "react";
 import Loading from "./loading";
 import CourseDetails from "@/app/sections/Course/CourseDetails";
+import { coursesData } from "../../../../public/assets/courses";
 
 type CourseDetailPageProp = {
   params: {

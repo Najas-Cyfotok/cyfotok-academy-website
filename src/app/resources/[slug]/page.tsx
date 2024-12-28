@@ -1,10 +1,10 @@
-import { resources, resourcesCategory } from "@/app/assets/resources";
 import PagePath from "@/app/components/page-path";
 import ResourcesHero from "@/app/sections/ResourcesHero";
 import ResourcesList from "@/app/sections/ResourcesList";
 import { Metadata } from "next";
 import { Suspense } from "react";
 import Loading from "./loading";
+import { resources, resourcesCategory } from "../../../../public/assets/resources";
 
 type CourseDetailPageProp = {
   params: {

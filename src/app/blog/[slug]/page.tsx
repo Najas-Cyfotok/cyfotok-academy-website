@@ -1,9 +1,9 @@
-import { blogs } from "@/app/assets/blog";
 import PagePath from "@/app/components/page-path";
 import Loading from "@/app/courses/loading";
 import BlogHero from "@/app/sections/Blog/BlogHero";
 import { Metadata } from "next";
 import { Suspense } from "react";
+import { blogs } from "../../../../public/assets/blog";
 
 type Props = {
   params: {

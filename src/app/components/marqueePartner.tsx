@@ -1,6 +1,6 @@
 import Marquee from "./marquee";
 import Image from "next/image";
-import { brands } from "../assets/assets";
+import { brands } from "../../../public/assets/assets";
 
 export function MarqueeDemo() {
   return (
