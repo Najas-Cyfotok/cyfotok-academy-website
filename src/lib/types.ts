@@ -1,3 +1,5 @@
+import { StaticImageData } from "next/image";
+
 export type CourseData = {
   id: string;
   imageSrc: string;
@@ -16,6 +18,7 @@ export type CourseData = {
   metaDesc?: string; // Optional
   metaKeyword?: string; // Optional
   category: string;
+  subpages?: string;
   state: string;
   language?: string;
   viewStatus: string;
@@ -112,3 +115,15 @@ export type BlogData = {
     code?: string;
   }[];
 };
+
+export type Skill = {
+  id: number;
+  subpage: string;
+  title: string;
+  des: string;
+  img: string | StaticImageData; // Accept both string and StaticImageData
+  secTitle: string;
+  secImg: string | StaticImageData; // Accept both string and StaticImageData
+  secDes: string;
+}[];
+

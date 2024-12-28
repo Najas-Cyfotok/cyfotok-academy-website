@@ -1,6 +1,15 @@
+'use client'
+import { toast } from "@/hooks/use-toast";
 import { Mail, MapPin, Phone } from "lucide-react";
 
 const ContactForm = () => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    toast({
+      variant: "default",
+      title: "Thanks for reaching out",
+    });
+  };
   return (
     <div className="grid grid-cols-3 gap-x-5 max-lg:grid-cols-1 max-lg:gap-y-3 ">
       <div className="col-span-1 flex flex-col gap-y-6 items-start max-md:gap-y-3">
@@ -36,7 +45,7 @@ const ContactForm = () => {
           Send us your comments! We value your feedback and look forward to
           hearing from you. Connect with us today!
         </p>
-        <form>
+        <form onSubmit={handleSubmit}>
           <div className="w-full flex gap-x-5 max-md:flex-col">
             <div className="flex flex-col gap-y-2 w-1/2 max-md:w-full">
               <label htmlFor="name" className="text-lg font-semibold">
@@ -60,7 +69,6 @@ const ContactForm = () => {
                 className="px-4 py-2  bg-transparent outline-none border border-black/40"
               />
             </div>
-            
           </div>
           <div className="flex flex-col gap-y-2">
             <label htmlFor="message" className="text-lg font-semibold">
@@ -73,7 +81,10 @@ const ContactForm = () => {
             />
           </div>
           <div className="flex justify-end">
-            <button className="bg-gradient-to-t from-pink-500 to-rose-500 hover:bg-gradient-to-t hover:from-pink-400 hover:to-rose-400 px-4 py-2 rounded-md mt-5">  Send Message</button>
+            <button className="bg-gradient-to-t from-pink-500 to-rose-500 hover:bg-gradient-to-t hover:from-pink-400 hover:to-rose-400 px-4 py-2 rounded-md mt-5">
+              {" "}
+              Send Message
+            </button>
           </div>
         </form>
       </div>

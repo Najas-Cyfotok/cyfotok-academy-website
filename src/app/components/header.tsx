@@ -63,9 +63,12 @@ const Header = () => {
           </ul>
         </nav>
       </div>
-      <RainbowButton className="hover:scale-105 transition duration-300 max-md:hidden">
-        Book a Demo
-      </RainbowButton>
+      
+      <Link href={`https://calendly.com/meet-cyfotok/demo-session`} target="_blank">
+        <RainbowButton className="hover:scale-105 transition duration-300 max-md:hidden">
+          Book a Demo
+        </RainbowButton>
+      </Link>
       <div className="hidden max-md:block">
         <AlignJustify
           className="h-6 w-6 cursor-pointer "

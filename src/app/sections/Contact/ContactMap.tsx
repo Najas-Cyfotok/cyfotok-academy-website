@@ -6,7 +6,7 @@ const ContactMap = () => {
         width="600"
         height="450"
         loading="lazy"
-        className="w-full h-[500px] border border-black/40"
+        className="w-full h-[350px] border border-black/40"
       ></iframe>
     </div>
   );

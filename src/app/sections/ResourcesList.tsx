@@ -1,7 +1,7 @@
 "use client";
 import { resources, resourcesCategory } from "@/lib/types";
 import { Search } from "lucide-react";
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import ResourceCard from "../components/resource-card";
 
 type ResourcesListProps = {
