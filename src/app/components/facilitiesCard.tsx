@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React from "react";
+
 import ShineBorder from "@/components/ui/shine-border";
 
 type FacilitiesCardProps = {

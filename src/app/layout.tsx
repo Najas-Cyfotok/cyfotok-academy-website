@@ -4,6 +4,7 @@ import "./globals.css";
 import Container from "./components/container";
 import Header from "./components/header";
 import Footer from "./components/Footer";
+import { Toaster } from "@/components/ui/toaster";
 
 const figtree = Figtree({ subsets: ["latin"] });
 // const poppins = Poppins({ weight: ["400", "500", "600", "700"], subsets: ["latin"] }); // Aadhi Told to me change a new font for poppins
@@ -25,6 +26,7 @@ export default function RootLayout({
         <Container>
           <Header />
           {children}
+          <Toaster />
           <Footer />
         </Container>
       </body>

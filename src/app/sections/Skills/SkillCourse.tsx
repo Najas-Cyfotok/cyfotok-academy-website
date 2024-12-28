@@ -1,6 +1,6 @@
 import CourseCard from "@/app/components/course-card";
 import { CourseData } from "@/lib/types";
-import React from "react";
+
 type SkillCourseProps = {
   data: CourseData[];
 };
@@ -16,7 +16,7 @@ const SkillCourse = ({ data }: SkillCourseProps) => {
         cybersecurity practitioners, aligned to the certification exam’s key
         learning objectives.
       </p>
-      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 my-10 max-md:my-5 max-md:justify-items-center">
+      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 my-10 max-md:my-5 justify-items-center">
         {/* filtering by category */}
         {data.map((item, index) => (
           <CourseCard

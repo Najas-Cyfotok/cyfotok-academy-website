@@ -3,7 +3,7 @@ import ShineBorder from "@/components/ui/shine-border";
 import { Download } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+
 
 type ResourceCardProps = {
   imgUrl: string;

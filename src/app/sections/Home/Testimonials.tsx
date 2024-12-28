@@ -1,4 +1,4 @@
-import React from "react";
+
 import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
 import { testimonials } from "../../assets/assets";
 

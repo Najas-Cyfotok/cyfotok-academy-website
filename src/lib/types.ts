@@ -1,3 +1,5 @@
+import { StaticImageData } from "next/image";
+
 export type CourseData = {
   id: string;
   imageSrc: string;
@@ -113,3 +115,15 @@ export type BlogData = {
     code?: string;
   }[];
 };
+
+export type Skill = {
+  id: number;
+  subpage: string;
+  title: string;
+  des: string;
+  img: string | StaticImageData; // Accept both string and StaticImageData
+  secTitle: string;
+  secImg: string | StaticImageData; // Accept both string and StaticImageData
+  secDes: string;
+}[];
+
