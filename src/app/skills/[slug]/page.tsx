@@ -8,7 +8,7 @@ import TeamWorkBG from "@/app/sections/Skills/TeamWorkBG";
 import { Metadata } from "next";
 import  { Suspense } from "react";
 import Loading from "./loading";
-// import { sleep } from "@/app/lib/utils";
+import { sleep } from "@/app/lib/utils";
 
 type Props = {
   params: {
@@ -27,7 +27,7 @@ const SkillsPage = async ({ params }: Props) => {
   //   console.log(data);
   const HeroData = skills.filter((skill) => skill.subpage == slug);
   // console.log(HeroData);
-  // await sleep(1000);
+  await sleep(1000);
 
   return (
     <main className="mt-28 mx-3">

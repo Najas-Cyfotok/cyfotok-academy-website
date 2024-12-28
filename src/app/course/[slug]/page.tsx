@@ -26,7 +26,7 @@ const CourseDetailPage = async ({ params }: CourseDetailPageProp) => {
   const filteredCourse = coursesData.filter(
     (course) => course.id === params.slug
   );
-  // await sleep(2000);
+  await sleep(1000);
 
   return (
     <main className="mt-28 px-3">

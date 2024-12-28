@@ -27,9 +27,9 @@ export async function generateMetadata({
 const ResourcesPage = async () => {
   return (
     <main className="mt-28 px-3">
-      <PagePath param={"All Resources"} route="Resources" />
-      <ResourcesHero />
       <Suspense fallback={<Loading />}>
+        <PagePath param={"All Resources"} route="Resources" />
+        <ResourcesHero />
         <ResourcesList
           resources={resources}
           resourcesCategory={resourcesCategory}
