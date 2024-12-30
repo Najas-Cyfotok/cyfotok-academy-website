@@ -1048,7 +1048,7 @@ export const coursesData  = [
     popular: true,
     new: true,
     bestSeller: true,
-    state: "Fetured",
+    state: "Featured",
     viewStatus: "Low",
     difficulty: "Beginner",
     desc: [
@@ -3786,7 +3786,7 @@ export const coursesData  = [
     paid: true,
     category: "Animation",
     subpage:'cybersecurity',
-    state: "Fetured",
+    state: "Featured",
     viewStatus: "Good",
     difficulty: "Intermediate",
     desc: [
@@ -4919,7 +4919,7 @@ export const coursesData  = [
     paid: true,
     category: "CyberSecurity",
     subpage:'cybersecurity',
-    state: "Fetured",
+    state: "Featured",
     viewStatus: "Medium",
     difficulty: "Expert",
     desc: [
@@ -11925,7 +11925,7 @@ requirement: [
     popular: true,
     new: true,
     bestSeller: true,
-    state: "Fetured",
+    state: "Featured",
     viewStatus: "Low",
     difficulty: "Beginner",
     desc: [
@@ -14402,7 +14402,7 @@ requirement: [
     paid: true,
     category: "Animation",
     subpage:'app-development',
-    state: "Fetured",
+    state: "Featured",
     viewStatus: "Good",
     difficulty: "Meduium",
     desc: [
@@ -15515,7 +15515,7 @@ requirement: [
     paid: true,
     category: "Photography",
     subpage:'artificial-intelligence',
-    state: "Fetured",
+    state: "Featured",
     viewStatus: "Medium",
     difficulty: "Meduium",
     desc: [
@@ -25879,7 +25879,7 @@ export const catagories = [
   "Writing",
 ];
 
-export const courseStates = ["All", "Fetured", "Popular", "Trending"];
+export const courseStates = ["All", "Featured", "Popular", "Trending"];
 
 export const viewStatus = ["All", "Great", "Good", "Medium", "Low"];
 

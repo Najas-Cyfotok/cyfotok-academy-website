@@ -148,14 +148,14 @@ export const testimonials = [
   {
     quote:
       "The attention to detail and innovative features have completely transformed our workflow. This is exactly what we've been looking for.",
-    name: "Farzi",
+    name: "Farzeel",
     designation: "Business Analyst",
     src: "https://utfs.io/f/NBpxSs18C7Kd5USzC7TSgvehmJYnEf1Tk4UcX3zLqCuOlyD0",
   },
   {
     quote:
       "Implementation was seamless and the results exceeded our expectations. The platform's flexibility is remarkable.",
-    name: "Adharsh",
+    name: "Adhithyan",
     designation: "Intern Cybersecurity Analyst",
     src: "https://utfs.io/f/NBpxSs18C7Kds34seFj0jeKq3dYIlTZyik9SuWzgRfrtALcb",
   },
@@ -214,7 +214,7 @@ export const FooterCompany = [
   },
   {
     title: "Cyfotok Infosec",
-    link: "/contactus",
+    link: "https://cyfotok.com/",
   },
   {
     title: "Cyfotok Blog",
@@ -233,34 +233,34 @@ export const FooterResources = [
   },
   {
     title: "Events",
-    link: "/contactus",
+    link: "/#",
   },
   {
     title: "Hackathons",
-    link: "/privacypolicy",
+    link: "/#",
   },
   {
     title: "Privacy Policy",
-    link: "/termsandconditions",
+    link: "https://merchant.razorpay.com/policy/NPftgKrZlf15oA/terms",
   },
   {
     title: "Terms and Conditions",
-    link: "/privacypolicy",
+    link: "https://merchant.razorpay.com/policy/NPftgKrZlf15oA/terms",
   },
 ];
 
 export const FooterSupport = [
   {
     title: "Contact Us",
-    link: "/aboutus",
+    link: "/contact",
   },
   {
     title: "FAQ",
-    link: "/contactus",
+    link: "/contact",
   },
   {
     title: "Support",
-    link: "/privacypolicy",
+    link: "/contact",
   },
 ];
 
