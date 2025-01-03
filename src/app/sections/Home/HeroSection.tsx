@@ -42,7 +42,7 @@ const HeroSection = () => {
           alt="hero"
           width={500}
           height={500}
-          className="w-full h-full"
+          className="w-full h-full rounded-3xl object-cover mt-5" 
         />
       </div>
     </section>
